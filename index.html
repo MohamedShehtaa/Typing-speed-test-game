@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing speed test game</title>
+    <!-- link style sheet -->
+    <link rel="stylesheet" href="./css/design.css" >
+    <!-- link normalize file -->
+    <link rel="stylesheet" href="./css/normalize.css" >
+    <!-- link font aswome -->
+    <link rel="stylesheet" href="./css/all.min.css" >
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="game">
+        <div class="game-head">
+            Typing Speed Test Game
+        </div>
+        <div class="container">
+            <div class="information-game">
+                you are playing on <span class="lvl"> 
+                <select  id="levels">
+                    <option    value="Easy"> Easy</option>
+                    <option   value="Normal">Normal</option>
+                    <option  value="Hard">Hard</option>
+                </select> 
+            </span> level & you have <span class="seconds"></span> seconds to type the word
+            </div>
+            <div class="the-word"></div>
+            <div class="restart"></div>
+            <div class="start">Start Playing</div>
+            <input type="text" name="word-guess">
+            <div class="word-container"> words will show here</div>
+            <div class="time-score">
+                <div class="time">time left : <span class="timel"></span> seconds</div>
+                <div class="score"> score : <span class="got"> </span> from <span class="total"></span></div>
+            </div>
+            <div class="finish">
+            </div>
+        </div>
+       
+    </div>
+    <script src="./javascript/file.js"></script>
+</body>
+</html>
