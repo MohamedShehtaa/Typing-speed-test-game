@@ -11,4 +11,4 @@ To start the the game in this case again click restart.
 If you finish on time, your score will increase and another word will appear .
 ..so on to when you complete the game you will win. 
 
-[click here to test]( https://mohamedshehtaa.github.io/Typing-speed-test-game/)
+[click here to test your spped]( https://mohamedshehtaa.github.io/Typing-speed-test-game/)
